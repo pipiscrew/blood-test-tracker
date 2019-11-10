@@ -1,6 +1,6 @@
 # Blood test tracker - keeping track of lab results
 
-You have pages and pages of lab results, you may want to consider a system that will help you to organize all this information, as well as to be able to easily keep track of important trends in your lab reports.
+You have pages and pages of lab results, you may want to consider a system that will help you to organize all this information, as well as to be able to easily keep track of important trends in your lab reports. ([excel version](https://cllsociety.org/toolbox/keeping-track-of-lab-results/))
 
 Database comes with the default examination group and types.
 
