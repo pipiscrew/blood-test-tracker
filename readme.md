@@ -18,9 +18,8 @@ ps to create the admin, you have to unrem the lines at login.php once, the rem a
 -[Bootstrap](http://getbootstrap.com)<br>
 -[Chart.js](https://www.chartjs.org/samples/latest/charts/line/basic.html)<br>
 -[jQuery](https://jquery.com)<br>
-
-## This project is no longer maintained
 <br><br>
+## This project is no longer maintained
 Copyright (c) 2019 [PipisCrew](http://pipiscrew.com)
 
 Licensed under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
