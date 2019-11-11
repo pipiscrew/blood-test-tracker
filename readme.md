@@ -12,7 +12,7 @@ Database comes with the default examination groups and types.
 
 ![3](https://user-images.githubusercontent.com/3852762/68550031-d6df0680-03f6-11ea-9fe0-c1f89b5cbea2.png)
 
-ps to create the admin, you have to unrem the lines at login.php once, the rem again!!
+ps to create the admin, you have to unrem the lines at login.php once, then rem again!!
 <br>
 ## This project uses the following 3rd-party dependencies :<br>
 -[Bootstrap](http://getbootstrap.com)<br>
