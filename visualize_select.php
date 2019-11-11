@@ -68,6 +68,21 @@ $blood_tests = $db->getSet("select blood_id, blood_date, blood_where, blood_comm
 
                     location.href= 'visualize.php?blood_test_ids='+countries.join(',');
                 }
+
+                function go_export() {
+                    //get #selected countries#
+                    var countries = $("#test").getSelected();
+                   console.log();
+                    if (!countries[0] || !countries[1])
+                    {
+                        alert("Please choose blood tests");
+                        return false;
+                    }
+
+  
+
+                    location.href= 'export_csv.php?blood_test_ids='+countries.join(',');
+                }
         </script>
     </head>
 <body>
@@ -78,6 +93,7 @@ $blood_tests = $db->getSet("select blood_id, blood_date, blood_where, blood_comm
                 <div id="test" class="list-group centre" ></div>
 
                 <button  class="btn btn-primary" onclick="go_chart()">visualize</button>
+                <button  class="btn btn-primary" onclick="go_export()">export</button>
             </div>
 
             <button class="btn btn-success" id="btn_select_all" style="margin-bottom:10px">+</button>
