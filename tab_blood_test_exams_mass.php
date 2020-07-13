@@ -94,7 +94,7 @@ foreach($exam_grps as $row)
     }
 
     $searchReplaceArray = array(
-        '{{exam_type_name}}' => $row['exam_acronym'] . ' (' .  $row['exam_name_eng'] . ' / ' . $row['exam_name_gr'] . ')' , 
+        '{{exam_type_name}}' => $row['exam_acronym'] . ' (' .  $row['exam_name_eng'] . ' / ' . $row['exam_name_gr'] . ')' . $row['exam_mes_type'] , 
         '{{exam_type_id}}' => $row['exam_type_id']
         );
 
