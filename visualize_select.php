@@ -12,7 +12,7 @@ $db = new dbase();
 $db->connect_sqlite();
 
 //fill chooser
-$blood_tests = $db->getSet("select blood_id, blood_date, blood_where, blood_comments from blood_tests order by blood_date asc", null);
+$blood_tests = $db->getSet("select blood_id, blood_date, blood_where, blood_comments from blood_tests order by blood_date desc", null);
 
 ?>
 
