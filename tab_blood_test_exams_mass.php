@@ -115,7 +115,7 @@ echo "</div></div>"; //last group
 ?>
 
     <input name="blood_test_id" id="blood_test_id" value="<?=$blood_test_id ?>" style="display:none;">
-    <button  class="btn btn-primary" type="submit" name="submit">save</button>
+    <button id="save" class="btn btn-primary" type="submit" name="submit">save</button>
 </form>
 </div>  <!-- container -->
 
@@ -136,5 +136,8 @@ echo "</div></div>"; //last group
                 return false;
             }
         }
+		
+        //disable button to avoid double clicks
+        document.getElementById('save').disabled = true;
     }
 </script>
