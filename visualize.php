@@ -13,13 +13,17 @@ if (!isset($_GET['blood_test_ids'])){
 	return;
 }
 
-$blood_test_ids = $_GET['blood_test_ids'];
-
-$blood_test_ids_arr = str_getcsv($blood_test_ids, ',');
-
-
 $db = new dbase();
 $db->connect_sqlite();
+
+$blood_test_ids = $_GET['blood_test_ids'];
+
+//get the blood_id, user selected, by proper date order
+$tmp_arr = $db->getSet("select blood_id from blood_tests where blood_id in ($blood_test_ids) order by blood_date asc", null);
+
+foreach ( $tmp_arr as $row ) 
+            $blood_test_ids_arr[] = $row['blood_id'];
+//     
 
 
 $chart_html = <<<EOT
