@@ -26,5 +26,5 @@ Licensed under the [MIT license](http://www.opensource.org/licenses/mit-license.
 
 ---
 
-altenrative :  
+alternative :  
 [OpenHealth, AI Health Assistant](https://github.com/OpenHealthForAll/open-health)  
