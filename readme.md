@@ -23,3 +23,8 @@ ps to create the admin, you have to unrem the lines at login.php once, then rem 
 Copyright (c) 2019 [PipisCrew](http://pipiscrew.com)
 
 Licensed under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
+
+---
+
+altenrative :  
+[OpenHealth, AI Health Assistant](https://github.com/OpenHealthForAll/open-health)  
