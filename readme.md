@@ -1,6 +1,6 @@
 # Blood test tracker - keeping track of lab results
 
-You have pages and pages of lab results, you may want to consider a system that will help you to organize all this information, as well as to be able to easily keep track of important trends in your lab reports. ([excel version](https://cllsociety.org/toolbox/keeping-track-of-lab-results/) by cllsociety)
+You have pages and pages of lab results, you may want to consider a system that will help you to organize all this information, as well as to be able to easily keep track of important trends in your lab reports. ([excel version](https://cllsociety.org/toolbox/keeping-track-of-lab-results/) by cllsociety) ([gsheet version](https://docs.google.com/spreadsheets/d/1gpESrmjD6TpOIlYB0-tu9uZk2fRaHkgFAsMPK9mzMKQ/edit?usp=sharing)
 
 Database comes with the default examination groups and types.
 
@@ -27,4 +27,12 @@ Licensed under the [MIT license](http://www.opensource.org/licenses/mit-license.
 ---
 
 alternative :  
-[OpenHealth, AI Health Assistant](https://github.com/OpenHealthForAll/open-health)  
+* (ts) [OpenHealth.AI Health Assistant](https://github.com/OpenHealthForAll/open-health)  
+* (docker ts) [AI-Driven Public Health Portal & Chatbot](https://github.com/shubh1303/AI-Public-Health-Chatbot)
+* (ts) [Bloodboy](https://github.com/ashugaev/bloodboy-biomarkers-tracker)
+* (portal) [Awesome Biomarkers, Blood Tests and Health Indicators](https://github.com/markwk/awesome-biomarkers)
+* (mobile) [Health3 - Blood Work Tracker](https://www.health3.app) - [android](https://play.google.com/store/apps/details?id=app.health3.hlt3) / [iphone](https://apps.apple.com/us/app/health3-blood-work-tracker/id6670444240)
+    * (android) [exahealth AI](https://play.google.com/store/apps/details?id=co.dataspeaks.exahealth) - Lab Report Scanner & Biomarker Tracker
+    * (iphone) [Node Health - Biomarker Tracker](https://apps.apple.com/gr/app/node-health-biomarker-tracker/id6751248320)
+    * (iphone) [Biomarker tracker & Reminder](https://apps.apple.com/by/app/biomarker-tracker-reminder/id6759002265)
+* (py) [Biomarker Dashboard](https://github.com/NoTranslationLayer/biomarkerdash) - deprecated
